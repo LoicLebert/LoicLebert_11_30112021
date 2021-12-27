@@ -14,7 +14,7 @@ export default class HomePage extends Component {
                 </header>
                 <main className="content-main">
                     {data.map((elt) => (
-                        <article key={elt.id} className="location-elt">
+                        <article key={elt.id} className="renting-elt">
                             <Thumb title={elt.title} src={elt.cover} id={elt.id} />
                         </article>
                 ))}

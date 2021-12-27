@@ -1,0 +1,60 @@
+.lightbox {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .lightbox,
+  .lightbox img {
+    width: 100%;
+    height: 255px;
+    border-radius: 25px;
+  }
+  
+  .lightbox img {
+    object-fit: cover;
+  }
+  
+  .lightbox .fas {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .lightbox .fas:hover {
+    cursor: pointer;
+    color: #ff6060;
+  }
+  
+  .lightbox .fa-chevron-left {
+    left: 6px;
+  }
+  
+  .lightbox .fa-chevron-right {
+    right: 6px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .lightbox {
+      margin-bottom: 25px;
+    }
+  
+    .lightbox,
+    .lightbox img {
+      height: 415px;
+    }
+  
+    .lightbox .fas {
+      font-size: 4rem;
+    }
+  
+    .lightbox .fa-chevron-left {
+      left: 25px;
+    }
+  
+    .lightbox .fa-chevron-right {
+      right: 25px;
+    }
+  }

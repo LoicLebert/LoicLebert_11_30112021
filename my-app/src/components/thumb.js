@@ -9,7 +9,7 @@ export default class Thumb extends Component {
 
     return (
       <div className="thumb">
-        <Link to={`/location/${id}`} title={title} className="thumb-link">
+        <Link to={`/renting/${id}`} title={title} className="thumb-link">
           <div className="thumb-cover"></div>
           <img src={src} alt={title} />
           <h2>{title}</h2>

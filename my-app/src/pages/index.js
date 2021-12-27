@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HomePage from "../components/homepage.tsx"
+import HomePage from "../components/homepage"
 
 export default class IndexPage extends Component {
   render() {

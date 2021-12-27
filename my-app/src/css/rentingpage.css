@@ -1,0 +1,48 @@
+.rent-main h2 {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  .rent-main p {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  .rent-main .tag {
+    margin: 10px 10px 10px 0;
+  }
+  
+  .rent-main-host {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rent-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .rent-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      margin-bottom: 25px;
+    }
+  
+    .rent-main-host {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .rent-details .dropdown {
+      width: 47%;
+    }
+  }
